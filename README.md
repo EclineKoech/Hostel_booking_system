@@ -31,7 +31,6 @@ HTML,CSS.
 ## Support and contact details
 
 
-Email:eclinejerutokoech@gmail.com.
 
 ### License
 
