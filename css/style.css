@@ -8,6 +8,40 @@ body {
     background-color: rgb(22, 122, 147);
 }
 
+.wifi:hover {
+    color: white;
+}
+
+.power:hover {
+    color: white;
+}
+
+.bed:hover {
+    color: white;
+}
+
+.locker:hover {
+    color: white;
+}
+
+.rooms:hover{
+    color: white;
+}
+
+.area:hover {
+    color: white;
+}
+
+/* image:hover {
+    color: white;
+} */
+
 h3, h1 {
     text-align: center;
+}
+
+.heading {
+    padding-bottom: 5px;
+    color: white;
+    padding-top: 5px;
 }
