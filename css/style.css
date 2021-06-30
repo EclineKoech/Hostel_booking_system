@@ -23,9 +23,9 @@
     transition: all .6s ease;
 }
 .navbar ul li a:hover{
-    background-color: green;
+    background-color: pink;
     color: black;
-    box-shadow: 0 0 10px yellow;
+    box-shadow: 0 0 10px grey;
 }
 /* home section */
 #home{
@@ -33,8 +33,6 @@
     flex-direction: column;
     background-color: none;
     height: 840px;
-    justify-content: ;
-    align-items: center;
     color: grey;
 }
 #home::before{
@@ -42,13 +40,18 @@
     position: absolute;
     top: 0;
     right: 0;
-   background-image: url("/images/hostel3.jpeg");
-   background-repeat: no-repeat;
-   background-size: cover;
-    height: 900px;
+    background-image: url("/images/hostel3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 981px;
     width: 100%;
     z-index: -1;
     opacity: .8;
+}
+.main{
+    background-color: rgb(231, 110, 130);
+    height: 50px;
+    border: ;
 }
 body {
     background-color: rgb(22, 122, 147);
