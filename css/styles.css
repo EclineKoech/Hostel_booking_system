@@ -128,3 +128,19 @@ body{
 .login.active{
     display:block;
 }
+@media (max-width:1030px){
+    .container::before{
+        left:-25%;
+        min-height: 60vh;
+        height:500px;
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width: 550px;
+    }
+    .container .tagline h1{
+        font-size: 22px;
+        line-height:25px;
+    }
+}
