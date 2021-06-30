@@ -27,6 +27,29 @@
     color: black;
     box-shadow: 0 0 10px yellow;
 }
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    height: 840px;
+    justify-content: ;
+    align-items: center;
+    color: grey;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+   background-image: url("/images/hostel3.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
 body {
     background-color: rgb(22, 122, 147);
     font-weight: bolder;
