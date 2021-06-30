@@ -8,28 +8,32 @@ body {
     background-color: rgb(22, 122, 147);
 }
 
+img {
+    box-shadow: 4px 4px 4px 4px  grey;
+}
+
 .wifi:hover {
-    color: white;
+    color: turquoise;
 }
 
 .power:hover {
-    color: white;
+    color: turquoise;
 }
 
 .bed:hover {
-    color: white;
+    color: turquoise;
 }
 
 .locker:hover {
-    color: white;
+    color: turquoise;
 }
 
 .rooms:hover{
-    color: white;
+    color: turquoise;
 }
 
 .area:hover {
-    color: white;
+    color: turquoise;
 }
 
 /* image:hover {
@@ -42,7 +46,10 @@ h3, h1 {
 
 .heading {
     margin-bottom: 5px;
-    color: white;
     margin-top: 5px;
-    border: 10px rgb(22, 122, 147);
+    box-shadow: 2px 2px 4px 4px turquoise;
+}
+
+.heading:hover {
+    color: turquoise;
 }
