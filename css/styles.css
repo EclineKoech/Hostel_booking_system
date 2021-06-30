@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    --primary-color:hsl(155, 94%, 51%);
+    --white-color:#fff;
+    --black-color:black; 
+    --light-gray:#E4E6EE;
+}
