@@ -23,6 +23,10 @@ body{
     width:100%;
     margin:auto;
 }
+.container{
+    background-color: rgb(22,122,147);
+    background-size: cover; 
+}
 .container::before{
     content:'';
     position: absolute;
@@ -30,8 +34,8 @@ body{
     left:0;
     right:0;
     bottom:0;
-    background-color: rgb(22,122,147);    
-    background-position: center center;    
+    background-color: rgb(22,122,147);
+    background-size: cover;       
     min-height: 100vh;
     z-index: -1;
 }
@@ -52,6 +56,10 @@ body{
 }
 .container .form-group{
     margin-bottom: 15px;
+}
+.container .form-group h3, label{
+    color: whitesmoke;
+    text-align: center;
 }
 .container .form-group input{
     display:block;
