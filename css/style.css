@@ -43,10 +43,15 @@
     width: 100%;
     z-index: -1;
 }
+.headings{
+    background-color: pink;
+    width: 800px;
+}
 .header{
     color: black;
     margin-top: 500px;
     background-color: grey;
+    width: 500px;
 }
 body {
     background-color: rgb(22, 122, 147);
