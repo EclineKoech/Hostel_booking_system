@@ -22,10 +22,41 @@
     padding: 8px 25px;
     transition: all .6s ease;
 }
-.navbar ul li a:hover{
-    background-color: green;
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    height: 840px;
+    color: grey;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("/images/hostel3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 981px;
+    width: 100%;
+    z-index: -1;
+}
+.headings{
+    background-color: purple;
+    width: 800px;
+}
+.header{
     color: black;
-    box-shadow: 0 0 10px yellow;
+    margin-top: 400px;
+    background-color: grey;
+    width: 500px;
+}
+.aboutus{
+    color: yellow;
+    margin-top: 100px;
+    font-size: 2rem;
 }
 body {
     background-color: rgb(22, 122, 147);
@@ -39,6 +70,7 @@ body {
 
 img {
     box-shadow: 4px 4px 4px 4px  grey;
+    max-width: 100%;
 }
 
 .wifi:hover {
@@ -81,4 +113,43 @@ h3, h1 {
 
 .heading:hover {
     color: turquoise;
+}
+
+#nav ul li a {
+    color: black;
+}
+
+#nav ul li a:hover {
+    color: turquoise;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
+footer {
+    background-color: rgb(22, 122, 147);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.btn {
+    box-shadow: 2px 2px 4px 4px grey;
+}
+
+.logo {
+    font-size: smaller;
+    background: url('/images/sitting1.jpeg');
+    background-repeat: no-repeat;
+    font-style: italic;
+    box-shadow: 2px 2px 2px 2px turquoise;
 }
