@@ -8,7 +8,6 @@
     --black-color:black; 
     --light-gray:#E4E6EE;
 }
-<<<<<<< HEAD
 
 .heading {
     margin-bottom: 5px;
@@ -30,23 +29,6 @@
 body{   
     background-color: rgb(22,122,147);
     /* position: relative;
-=======
-#nav{
-    display: flex;
-    position: fixed;
-}
-#nav ul li a {
-    color: black !important;
-}
-#nav ul li a:hover {
-        color: turquoise !important;
-       
-        
-}
-
-body{  
-    position: relative;
->>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,13 +41,7 @@ body{
     max-width:668px;
     width:100%;
     margin:auto;
-<<<<<<< HEAD
 } */
-=======
-    background-color: rgb(22,122,147);
-    background-size: cover; 
-}
->>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
 .container::before{
     content:'';
     position: absolute;
@@ -73,15 +49,9 @@ body{
     left:0;
     right:0;
     bottom:0;
-<<<<<<< HEAD
     background-color: rgb(22,122,147);    
     background-position: center center;    
     /* min-height: 100vh; */
-=======
-    background-color: rgb(22,122,147);
-    background-size: cover;       
-    min-height: 100vh;
->>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
     z-index: -1;
 }
 .container .tagline{
