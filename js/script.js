@@ -48,7 +48,7 @@ $("#logbtn").click(function (event) {
         for (var i = 0; i < usernames.length; i++) {
             if (username == usernames[i] && password == passwords[i]) {
                 // testing log. want to load a page
-                var url=$(this).attr('services');
+                var url=$(this).attr('services.html');
                 break;
             } else {
                 alert('Login failed check the credentials!')
