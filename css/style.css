@@ -1,4 +1,4 @@
-/* Navbar */
+/* Navbar */ 
 /* .navbar{
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@
     color: white;
     /* padding: 8px 25px; */
     /* transition: all .6s ease;
-} */ */
+} */
 
 /* home section */
 #home{
@@ -44,7 +44,7 @@
 } */
 /* .header{
     color: black;
-    margin-top: 400px;
+    margin-top: 0px;
     background-color: grey;
     width: 500px;
 } */
@@ -58,7 +58,6 @@
     height: 700px;
 
 }
-
 body {
     background-color: rgb(22, 122, 147);
     font-weight: bolder;
