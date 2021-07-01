@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/jquery-3.6.0.js">
+    <link rel="stylesheet" href="js/script.js">
   </head>
 <body>
      <div class="container" id="menu-bar">
@@ -93,7 +95,6 @@
 
     <!-- Footer -->
 <footer class="page-footer font-small blue-grey lighten-5">
-
   <div style="background-color: gray;">
     <div class="container">
       <div class="row py-4 d-flex align-items-center">
@@ -125,17 +126,21 @@
     <div class="row mt-3 dark-grey-text">
       <div class="col-md-3 col-md-4  mb-4">
             <div class="col">
-                <div class="mb-3">
+              <form action="">
+                <div class="mb-3" id="email">
                     <label for="FormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com" name="fname" required>
                 </div>
-                <div class="mb-3">
-                    <label for="FormControlTextarea1" class="form-label">Your Message</label>
+                <div class="mb-3" id="message">
+                    <label for="message" class="form-label">Your Message</label>
                     <textarea class="form-control" id="Textarea"></textarea>
                 </div>
-                    <button type="button" class="btn border text-white">Send Message</button>
+                <div>
+                  <button type="button" class="btn border text-white">Send Message</button>
                 </div>
-      </div>      
+              </form>
+             </div>      
+           </div>  
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold">Our Offices</h6>
             <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -159,7 +164,7 @@
             <a class="dark-grey-text" href="index.html">Home</a>
             </p>
             <p>
-            <a class="dark-grey-text" href="service.html">Services</a>
+            <a class="dark-grey-text" href="services.html">Services</a>
             </p>
             <p>
             <a class="dark-grey-text" href="hostels.html">Our Hostels</a>
@@ -183,10 +188,9 @@
     </div>
   </div>
   <div class="footer-copyright text-center text-50 py-3">© 2021 Copyright:
-    <a class="dark-grey-text" href="https://mdbootstrap.com/"> Tropicshostels.com</a>
+    <a class="dark-grey-text" href="https://tropicshostels.com/"> Tropicshostels.com</a>
   </div>
   <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-
 </footer>
 
 </body>
