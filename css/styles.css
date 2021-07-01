@@ -2,27 +2,70 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    --primary-color:hsl(155, 94%, 51%);
+   font-family: 'Abril Fatface', cursive;
+    --primary-color: turquoise;
     --white-color:#fff;
     --black-color:black; 
     --light-gray:#E4E6EE;
 }
+<<<<<<< HEAD
+
+.heading {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 4px 4px turquoise;
+}
+
+.heading:hover {
+    color: turquoise;
+}
+
+#nav ul li a {
+    color: black;
+}
+
+#nav ul li a:hover {
+    color: turquoise;
+}
+body{   
+    background-color: rgb(22,122,147);
+    /* position: relative;
+=======
+#nav{
+    display: flex;
+    position: fixed;
+}
+#nav ul li a {
+    color: black !important;
+}
+#nav ul li a:hover {
+        color: turquoise !important;
+       
+        
+}
+
 body{  
     position: relative;
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 
 
-.container{
+/* .container{
     padding:50px 25px 0;
     max-width:668px;
     width:100%;
     margin:auto;
+<<<<<<< HEAD
+} */
+=======
+    background-color: rgb(22,122,147);
+    background-size: cover; 
 }
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
 .container::before{
     content:'';
     position: absolute;
@@ -30,9 +73,15 @@ body{
     left:0;
     right:0;
     bottom:0;
+<<<<<<< HEAD
     background-color: rgb(22,122,147);    
     background-position: center center;    
+    /* min-height: 100vh; */
+=======
+    background-color: rgb(22,122,147);
+    background-size: cover;       
     min-height: 100vh;
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
     z-index: -1;
 }
 .container .tagline{
@@ -52,6 +101,10 @@ body{
 }
 .container .form-group{
     margin-bottom: 15px;
+}
+.container .form-group h3, label{
+    color: whitesmoke;
+    text-align: center;
 }
 .container .form-group input{
     display:block;
@@ -84,7 +137,7 @@ body{
     height:48px;
     text-transform: uppercase;
     color:var(--white-color);
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     border:none;
     border-radius: 2px;
     cursor: pointer;
@@ -92,7 +145,7 @@ body{
 }
 .container .btn:focus,.btn:hover{
     outline:none;
-    background-color: violet;
+    background-color: rgb(22,122,147);
 }
 .container .already-registered{
     color:var(--black-color);
@@ -100,9 +153,9 @@ body{
     padding-top:20px;
     text-align: center;
 }
-.container .already-registered a{
+/* .container .already-registered a{
     color:var(--primary-color);
-}
+} */
 
 .container .reset-pass{
     display:flex;
@@ -121,6 +174,9 @@ body{
 }
 .reset.active{
     display: block;
+}
+.reset {
+    display: none;
 }
 .login{
     display:none;
@@ -144,3 +200,23 @@ body{
         line-height:25px;
     }
 }
+.logo {
+    font-size: smaller;
+    background: url('/images/sitting1.jpeg');
+    background-repeat: no-repeat;
+    font-style: italic;
+    box-shadow: 2px 2px 2px 2px turquoise;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.btn {
+    box-shadow: 2px 2px 4px 4px grey;
+}
+

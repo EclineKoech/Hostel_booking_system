@@ -4,24 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Login</title>
 </head>
 <body>
+<<<<<<< HEAD
+    <div class="container" id="menu-bar">
+        <nav class="navbar navbar-expand-lg ">
+            <h1 class="logo">TROPICS HOSTELS</h1>
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+              <ul class="nav nav-bar">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+=======
+    <!-- <div class="container-fluid" id="menu-bar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="collapse navbar-collapse justify-content-end" id="nav">
+              <ul class="nav nav-bar">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ourhostels.html">Our Hostels</a>
+                </li>
+                <li class="nav-item">
+<<<<<<< HEAD
+                  <a class="nav-link" href="login.html">Login</a>
+=======
+                  <a class="nav-link active" aria-current="page" href="login.html" active>Login</a>
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
+                </li>
+              </ul>
+            </div>
+        </nav>
+<<<<<<< HEAD
+    </div>    
+=======
+    </div> -->
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
     <div class="container">
-        <div class="tagline">
-            <h1>Welcome to Tropics Hostels</h1>
+        <div id="home">
+          <div class="heading text-center">
+                <h1>LOGIN</h1>
+            </div>
+            <hr />
         </div>
+<<<<<<< HEAD
+
         <form id="form" method="post" action="#">
             <div class="register">
+=======
+        <form id="form" method="post" action="js/script.js">
+            <div class="register">                
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
                 <div class="form-group">
+                    <h3>Register</h3>
                     <label><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-person" viewBox="0 0 16 16">
                             <path
                                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg> &nbsp User Name &nbsp </label>
-                    <input type="text" placeholder="UserName" required="">
+                    <input type="text" id="usernamer" placeholder="UserName" required="">
                 </div>
                 <div class="form-group">
                     <label> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -30,7 +82,7 @@
                                 d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
                             <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                         </svg> &nbspPassword &nbsp </label>
-                    <input type="password" placeholder="Password" required="">
+                    <input type="password" id="passwordr" placeholder="Password" required="">
                 </div>
                 <div class="form-group">
                     <label><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -38,7 +90,7 @@
                             <path
                                 d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z" />
                         </svg> &nbsp University &nbsp </label>
-                    <input type="text" name="university" placeholder="University" required>
+                    <input type="text" name="university" id="university" placeholder="University" required>
                 </div>
                 <div class="form-group">
                     <label><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -48,21 +100,26 @@
                             <path
                                 d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
                         </svg> &nbsp City &nbsp</label>
-                    <input type="text" name="city" placeholder="City" required>
+                    <input type="text" name="city" id="city" placeholder="City" required>
                 </div>
-                <button type="submit" class="btn">SIGN UP</button>
+<<<<<<< HEAD
+                <button type="submit" class="btn border text-white">SIGN UP</button>
+=======
+                <button type="submit"  class="btn" id="regbtn">SIGN UP</button>
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
                 <div class="already-registered">
                     Already have an account? <a href="#" id="login">Login</a>
                 </div>
             </div>
             <div class="login">
                 <div class="form-group">
+                    <h3>Login</h3>
                     <label><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-person" viewBox="0 0 16 16">
                             <path
                                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg> &nbsp User Name &nbsp </label>
-                    <input type="username" placeholder="username" required="">
+                    <input type="username" id="username" placeholder="username" required="">
                 </div>
                 <div class="form-group">
                     <label> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -71,25 +128,30 @@
                                 d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
                             <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                         </svg> &nbspPassword &nbsp </label>
-                    <input type="password" placeholder="Password" required="">
+                    <input type="password" id="password" placeholder="Password" required="">
                 </div>
                 <div class="reset-pass">
                     <a href="#" id="reset">Forgot Password? </a>
                 </div>
-                <button type="submit" class="btn">LOGIN</button>
+<<<<<<< HEAD
+                <button type="submit" class="btn border text-white">LOGIN</button>
+=======
+                <button type="submit" class="btn" id="logbtn">LOGIN</button>
+>>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
                 <div class="already-registered">
                     Register a new Account <a href="#" id="register">register</a>
                 </div>
             </div>
 
-            <div class="reset">
+            <!-- <div class="reset">
                 <div class="form-group">
+                    <h3>Reset Password</h3>
                     <label><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-person" viewBox="0 0 16 16">
                             <path
                                 d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg> &nbsp User Name &nbsp </label>
-                    <input type="text" placeholder="UserName" required="">
+                    <input type="text" id="usernamere" placeholder="UserName" required="">
                 </div>
                 <div class="form-group">
                     <label> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -98,7 +160,7 @@
                                 d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
                             <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                         </svg> &nbspPassword &nbsp </label>
-                    <input type="password" placeholder="Password" required="">
+                    <input type="password" id="passwordre" placeholder="Password" required="">
                 </div>
                 <div class="form-group">
                     <label> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -107,16 +169,117 @@
                                 d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z" />
                             <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                         </svg> &nbsp Repeat Password &nbsp </label>
-                    <input type="password" placeholder="Password" required="">
+                    <input type="password" id="passwordre2" placeholder="Password" required="">
                 </div>
-                <button type="submit" class="btn">RESET</button>
+                <button type="submit" class="btn border text-white">RESET</button>
                 <div class="already-registered">
                     Login Instead <a href="#" id="login">Login</a>
 
                 </div>
-            </div>
+            </div> -->
         </form>
     </div>
+    
+    <footer class="page-footer font-small blue-grey lighten-5">
+        <hr />
+  <div style="background-color: gray;">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        </div>
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+          <a class="fb-ic">
+            <i class="fa fa-facebook fa-lg black-text mr-4" aria-hidden="true"></i>
+          </a>
+          <a class="tw-ic">
+            <i class="fa fa-twitter fa-lg white-text mr-4" aria-hidden="true"></i>
+          </a>
+          <a class="gplus-ic">
+            <i class="fa fa-google-plus fa-lg white-text mr-4" aria-hidden="true"></i>
+          </a>
+          <a class="li-ic">
+            <i class="fa fa-linkedin fa-lg white-text mr-4" aria-hidden="true"></i>
+          </a>
+          <a class="ins-ic">
+            <i class="fa fa-instagram fa-lg white-text mr-4" aria-hidden="true"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center text-md-left mt-5">
+    <div class="row mt-3 dark-grey-text">
+      <div class="col-md-3 col-md-4  mb-4">
+            <div class="col">
+              <form action="">
+                <div class="mb-3" id="email">
+                    <label for="FormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com" name="fname" required>
+                </div>
+                <div class="mb-3" id="message">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="Textarea"></textarea>
+                </div>
+                <div>
+                  <button type="button" class="btn border text-white">Send Message</button>
+                </div>
+              </form>
+             </div>      
+           </div>  
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Our Offices</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+            <a class="dark-grey-text" href="hostel.html">Makadara</a>
+            </p>
+            <p>
+            <a class="dark-grey-text" href="hostel.html">Imara</a>
+            </p>
+            <p>
+            <a class="dark-grey-text" href="hostel.html">Uhuru</a>
+            </p>
+            <p>
+            <a class="dark-grey-text" href="hostel.html">Umoja</a>
+            </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">links</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+            <a class="dark-grey-text" href="index.html">Home</a>
+            </p>
+            <p>
+            <a class="dark-grey-text" href="services.html">Services</a>
+            </p>
+            <p>
+            <a class="dark-grey-text" href="hostels.html">Our Hostels</a>
+            </p>
+            <p>
+            <a class="dark-grey-text" href="login.html">Login</a>
+            </p>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
+            <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+            <i class="fas fa-home mr-3"></i> 300-201 Nairobi-Kenya</p>
+            <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p>
+            <i class="fas fa-phone mr-3"></i> + 254 234 567 88</p>
+            <p>
+            <i class="fas fa-print mr-3"></i> + 254 234 567 89</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center text-50 py-3">© 2021 Copyright:
+    <a class="dark-grey-text" href="https://tropicshostels.com/"> Tropicshostels.com</a>
+  </div>
+  <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
