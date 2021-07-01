@@ -22,4 +22,9 @@ btnreset.onclick = function(){
    login.classList.add("inactive");   
    register.classList.add("inActive");   
 }
-
+$("form").submit(function () {
+  var email = document.getElementById("email");
+  var message = document.getElementById("message");
+  if (email === "" || message === "");
+  alert("Thankyou for your message");
+});
