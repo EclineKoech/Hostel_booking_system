@@ -17,19 +17,18 @@ btnregister.onclick = function () {
     //    reset.classList.add("inActive");
     register.classList.remove("inActive");
 }
-<<<<<<< HEAD
+// btnreset.onclick = function(){   
+//    reset.classList.add("active"); 
+//    login.classList.add("inactive");   
+//    register.classList.add("inActive");   
+// }
 $("form").submit(function () {
   var email = document.getElementById("email");
   var message = document.getElementById("message");
   if (email === "" || message === "");
   alert("Thankyou for your message");
 });
-=======
-// btnreset.onclick = function(){   
-//    reset.classList.add("active"); 
-//    login.classList.add("inactive");   
-//    register.classList.add("inActive");   
-// }
+
 
 // The usernamer and passwordr are username and pass in the regitration section 
 
@@ -62,4 +61,3 @@ $("#logbtn").click(function (event) {
 
 
 
->>>>>>> e8e94e2324e7b652d53e8a976ea1f37928b3a648
