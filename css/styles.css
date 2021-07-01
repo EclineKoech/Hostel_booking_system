@@ -190,3 +190,8 @@ a:hover {
     box-shadow: 2px 2px 4px 4px grey;
 }
 
+footer {
+    background-color: rgb(22, 122, 147);
+    color: white;
+}
+
