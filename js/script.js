@@ -32,7 +32,7 @@ $("form").submit(function () {
 
 // The usernamer and passwordr are username and pass in the regitration section 
 
-$("#regbtn").click(function regLog (event) {
+$(btnregister).click(function regLog (event) {
     var usernamers = [];
     var passwordrs = [];
     var universitys = [];
@@ -43,7 +43,7 @@ $("#regbtn").click(function regLog (event) {
     var city = citys.push($("#city").val());
     var usernames = usernamers.map();
     var passwords = passwordrs.map();
-$("#logbtn").click(function (event) {
+$(btnLogin).click(function (event) {
         event.preventDefault();
         for (var i = 0; i < usernames.length; i++) {
             if (username == usernames[i] && password == passwords[i]) {
