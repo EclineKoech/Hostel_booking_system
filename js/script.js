@@ -23,6 +23,16 @@ btnregister.onclick = function () {
 //    register.classList.add("inActive");   
 // }
 
+$("form").submit(function () {
+  var email = document.getElementById("email");
+  var message = document.getElementById("message");
+  if (email === "" || message === "");
+  alert("Thankyou for your message");
+});
+
+
+
+
 // The usernamer and passwordr are username and pass in the regitration section 
 
 $("#regbtn").click(function regLog (event) {
@@ -41,7 +51,7 @@ $("#logbtn").click(function (event) {
         for (var i = 0; i < usernames.length; i++) {
             if (username == usernames[i] && password == passwords[i]) {
                 // testing log. want to load a page
-                var url=$(this).attr('services');
+                var url=$(this).attr('services.html');
                 break;
             } else {
                 alert('Login failed check the credentials!')
