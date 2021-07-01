@@ -36,6 +36,18 @@ $("#regbtn").click(function regLog (event) {
     var city = citys.push($("#city").val());
     var usernames = usernamers.map();
     var passwords = passwordrs.map();
+$("#logbtn").click(function (event) {
+        event.preventDefault();
+        for (var i = 0; i < usernames.length; i++) {
+            if (username == usernames[i] && password == passwords[i]) {
+                // testing log. want to load a page
+                var url=$(this).attr('services');
+                break;
+            } else {
+                alert('Login failed check the credentials!')
+            }
+        }
+    })
 
 })
     
