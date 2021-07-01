@@ -49,13 +49,13 @@
 }
 .header{
     color: black;
-    margin-top: 400px;
+    margin-top: 0px;
     background-color: grey;
     width: 500px;
 }
 .aboutus{
-    color: yellow;
-    margin-top: 100px;
+    color: white;
+    margin-top: 550px;
     font-size: 2rem;
 }
 body {
