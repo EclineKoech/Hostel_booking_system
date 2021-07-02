@@ -172,7 +172,7 @@ body{
 }
 .logo {
     font-size: smaller;
-    background: url('images/sitting1.jpeg');
+    background: url('./images/sitting1.jpeg');
     background-repeat: no-repeat;
     font-style: italic;
     box-shadow: 2px 2px 2px 2px turquoise;
