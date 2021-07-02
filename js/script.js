@@ -25,7 +25,7 @@ btnregister.onclick = function () {
 
 $("form").submit(function () {
   var email = document.getElementById("email");
-  var message = document.getElementById("message");
+  var message = document.getElementById("floatingtextarea2");
   if (email === "" || message === "");
   alert("Thankyou for your message");
 });
