@@ -34,32 +34,43 @@ $("form").submit(function () {
 
 
 // The usernamer and passwordr are username and pass in the regitration section 
+var regArray=[];
+function onRegisterPressed(Event){
+    Event.preventDefault();
+    var usernames=document.getElementById("usernamer").value;
+    var passwords=document.getElementById("passwordr").value;
+    var universitys=document.getElementById("university").value;
+    var citys=document.getElementById("city").value;
+var userobj={username:usernamer, password:passwordr,university:universityr,city:cityr};
+regArray.push(userobj);
 
-$(btnregister).click(function regLog (event) {
-    var usernamers = [];
-    var passwordrs = [];
-    var universitys = [];
-    var citys = [];
-    var usernamer = usernamers.push($("#usernamer").val());
-    var passwordr = passwordrs.push($("#passwordr").val());
-    var university = universitys.push($("#university").val());
-    var city = citys.push($("#city").val());
-    var usernames = usernamers.map();
-    var passwords = passwordrs.map();
-$(btnLogin).click(function (event) {
-        event.preventDefault();
-        for (var i = 0; i < usernames.length; i++) {
-            if (username == usernames[i] && password == passwords[i]) {
-                // testing log. want to load a page
-                var url=$(this).attr('services.html');
-                break;
-            } else {
-                alert('Login failed check the credentials!')
-            }
-        }
-    })
+function onLoginPressed(){
+    for (var i = 0; i < usernames.length; i++) {
+                    if (username == usernames[i] && password == passwords[i]) {
+                        // testing log. want to load a page
+                        var url=$(this).attr('services.html');
+                        break;
+                    } else {
+                        alert('Login failed check the credentials!')
+                    }
 
-})
+}
+}
+};
+// $(btnLogin).click(function (event) {
+//         event.preventDefault();
+//         for (var i = 0; i < usernames.length; i++) {
+//             if (username == usernames[i] && password == passwords[i]) {
+//                 // testing log. want to load a page
+//                 var url=$(this).attr('services.html');
+//                 break;
+//             } else {
+//                 alert('Login failed check the credentials!')
+//             }
+//         }
+//     })
+
+
     
 
 
