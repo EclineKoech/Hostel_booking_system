@@ -44,6 +44,7 @@ function onRegisterPressed(Event){
 var userobj={username:usernamer, password:passwordr,university:universityr,city:cityr};
 regArray.push(userobj);
 
+
 function onLoginPressed(){
     for (var i = 0; i < usernames.length; i++) {
                     if (username == usernames[i] && password == passwords[i]) {
