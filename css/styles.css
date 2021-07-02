@@ -154,6 +154,7 @@ body{
 .login.active{
     display:block;
 }
+
 @media (max-width:1030px){
     .container::before{
         left:-25%;
@@ -169,13 +170,6 @@ body{
         font-size: 22px;
         line-height:25px;
     }
-}
-.logo {
-    font-size: smaller;
-    background: url('images/sitting1.jpeg');
-    background-repeat: no-repeat;
-    font-style: italic;
-    box-shadow: 2px 2px 2px 2px turquoise;
 }
 
 a {

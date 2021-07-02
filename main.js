@@ -13,3 +13,10 @@ $("form").submit(function () {
 //     alert("enter a valid email");
 
 // };
+
+// $(document).ready(function () {
+//   $(".wifi").hover(function () {
+//     $(".one").show();
+//     $(".two").hide();
+//   });
+// });
