@@ -9,7 +9,7 @@
 
 ## Description
 
-
+An application that helps students access and book available hostels and management in managing these hostels.
 
 ## Setup/Installation Requirements
 
@@ -25,12 +25,18 @@ No bugs.
 
 ### Technologies Used 
 
-
-HTML,CSS.
+* Html
+* Css
+* Javascript
+* Jquery
+* bootstrap
 
 ## Support and contact details
 
-
+* dennis.ndonga@student.moringaschool.com
+* eclinejerutokoech@gmail.com
+* joy.mugambi@student.moringaschool.com
+* shantel.kemunto@student.moringaschool.com
 
 ### License
 
