@@ -6,10 +6,10 @@ $("form").submit(function () {
 });
 
 
-function contact(){
-    var email = document.getElementById(email);
+// function contact(){
+//     var email = document.getElementById(email);
 
-    if (email !== "" || message !== "");
-    alert("enter a valid email");
+//     if (email !== "" || message !== "");
+//     alert("enter a valid email");
 
-};
+// };

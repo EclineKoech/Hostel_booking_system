@@ -43,7 +43,7 @@ $(document).ready(function () {
 $("form").submit(function () {
   var email = document.getElementById("email");
   var message = document.getElementById("message");
-  if (email === "" || message === "");
+  if (email === "" && message === "");
   alert("Thankyou for your message");
 });
 
